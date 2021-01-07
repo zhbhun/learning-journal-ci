@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "ljc": "lib/index.js"
+  },
   "scripts": {
     "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "execa": "^5.0.0",
+    "commander": "^6.2.1",
+    "dayjs": "^1.10.2",
     "git-log-parser": "^1.2.0",
+    "git-url-parse": "^11.4.3",
+    "shelljs": "^0.8.4",
     "through2": "^4.0.2"
   },
   "devDependencies": {
