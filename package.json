@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": [
+    "lib"
+  ],
   "bin": {
     "ljc": "lib/index.js"
   },
